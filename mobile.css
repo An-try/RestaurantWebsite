@@ -1,0 +1,281 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+div{
+	display: block;
+}
+
+
+
+#circle-left {
+	width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 9;
+    top: 11vw;
+    background: rgba(255,255,255,.8);
+    padding: 2vw;
+    border-radius: 100rem;
+    left: 6vw;
+    cursor: pointer;
+}
+#circle-right {
+	width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 9;
+    top: 11vw;
+    background: rgba(255,255,255,.8);
+    padding: 2vw;
+    border-radius: 100rem;
+    right: 6vw;
+    cursor: pointer;
+}
+p{
+	font-size: 1.8vw;
+    margin: 2vw 0;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+header{
+	display: block;
+} 
+.header-container{
+	width: 85vw;
+	margin-top: 0.3rem;
+    margin-right: auto;
+    margin-bottom: 0.3rem;
+    margin-left: auto;
+	display: flex;
+    justify-content: space-around;
+}
+.logo-container{
+	display: flex;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.logo-text-container{
+	margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: 1rem;
+	display: block;
+}
+.logo-text{
+	font-size: 1.7rem;
+	color: #4f4f4f;
+}
+.message{
+	margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: 0px;
+    font-size: larger;
+}
+i{
+	font-size: 1.5vw;
+    color: #4f4f4f;
+	font-style: italic;
+}
+
+
+
+.menu-container{
+	background-color: #71a00c;
+    position: relative;
+}
+ul{
+	list-style-type: disc;
+    margin-block-start: 1em;
+    /* margin-inline-start: 100px; */
+    /* margin-inline-end: 100px; */
+    /* padding-inline-start: 100px; */
+    /* padding-inline-end: 100px; */
+}
+.main-menu{
+    justify-content: center;
+}
+li{
+	justify-content: center;
+	position: relative;
+	height: inherit;
+    list-style-type: none;
+    display: flex;
+	text-align: -webkit-match-parent;
+}
+lu{
+	padding: 5px;
+}
+a{
+	color: #fff;
+	background: #690;
+	width: 150px;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 20px;
+}
+.menu-container a:hover{
+	color: #ccc;
+}
+
+
+
+
+.dishes-overview{
+    position: relative;
+	background: #f7f7f7;
+	height: 30vw;
+	display: block;
+}
+.fill-color{
+	position: absolute;
+	height: 100%;
+	width :100%;
+	background: #c8cdd2;
+}
+.dish-image-1{
+	width: 70vw;
+	position: absolute;
+	right: 0;
+}
+.arrow-left{
+	width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 10;
+    top: 11vw;
+    background: rgba(255,255,255,.8);
+    padding: 2vw;
+    border-radius: 100rem;
+    left: 6vw;
+    cursor: pointer;
+}
+.arrow-right{
+	width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 10;
+    top: 11vw;
+    background: rgba(255,255,255,.8);
+    padding: 2vw;
+    border-radius: 100rem;
+    right: 6vw;
+    cursor: pointer;
+}
+.menu-footer-container a2:hover{
+	color: #000;
+}
+.restaurant-schedule{
+	position: absolute;
+    top: 9vw;
+    left: 16vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+	display: block;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.green{
+	font-weight: 600;
+    font-size: 3vw;
+	color: #71a00c;
+}
+h5{
+	font-size: 2vw;
+}
+
+
+
+.dishes-description{
+	position: relative;
+	background: #f7f7f7;
+	height: 65vw;
+	display: block;
+}
+.dish-description{
+	position: absolute;
+	width: 38vw;
+	right: 9vw;
+	top: 4vw;
+	display: block;
+}
+.about-button{
+	height: 2.5rem;
+	width: 8rem;
+	border-radius: 5px;
+	background: #fff;
+	cursor: pointer;
+	font-size: larger;
+	text-decoration: none;
+	display: inline-block;
+}
+.dish-image-2{
+	width: 90vw;
+}
+
+
+
+basement{
+	height: auto;
+}
+.basement-footer {
+	color: #fff;
+	background: #d1d1d1;
+    position: fixed;
+    left: 0;
+	right: 0;
+	bottom: 0;
+    padding-top: 20px;
+	z-index: 100;
+}
+.menu-footer-container{
+	position: relative;
+    bottom: 25px;
+    /* left: 50%; */
+    /* margin-right: -50%; */
+    /* transform: translate(-50%, -50%); */
+	justify-content: center;
+}
+.menu-footer-container a2:hover{
+	color: #000;
+}
+.footer-menu{
+	position: relative;
+	display: flex;
+    justify-content: center;
+}
+a2{
+	font-size: 10px;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+	cursor: pointer;
+}
+li2{
+	height: inherit;
+    list-style-type: none;
+    display: flex;
+	text-align: -webkit-match-parent;
+}
+h4{
+	font-size: 8px;
+	color: black;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}

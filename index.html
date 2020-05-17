@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <title>Ресторан Пальмира</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+	<link id="pagestyle" rel="stylesheet" type="text/css" href=large.css">
+	<script scr="script.js"></script>
 </head>
 
 <body>
@@ -40,9 +41,8 @@
 	
 	<overview>
 		<div class="dishes-overview">
-			<div class="dish-image-1">
-				<img src="images/dish-1.png" alt="dish-1" />
-			</div>
+			<div class="fill-color"></div>
+			<img class="dish-image-1" src="images/dish-1.png" alt="dish-1" />
 			<div id="circle-left"></div>
 			<div id="circle-right"></div>
 			<div class="arrow-left">
@@ -52,9 +52,14 @@
 				<img src="images/arrow-right.png">
 			</div>
 			<div class="restaurant-schedule">
-				<div><h5>Бизнес ланч</h5></div>
-				<div><h6>в нашем ресторане</h6></div>
-				<div><h7>с 12.00 до 15.00</h7></div>
+				<span class="green">Бизнес ланч</span>
+				<br>в нашем ресторане
+				<span class="green">
+					<br>С 12:00 до 15:00
+				</span>
+				<!-- <div><h5>Бизнес ланч</h5></div> -->
+				<!-- <div><h6>в нашем ресторане</h6></div> -->
+				<!-- <div><h7>с 12.00 до 15.00</h7></div> -->
 			</div>
 		</div>
 	</overview>
